@@ -1,18 +1,27 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div class="row justify-content-center">
+      <div class="col-11">
+        <div class="p-5 mb-4 bg-light rounded-3">
+              <div class="container-fluid py-5">
+                <h1 class="text-center display-5 fw-bold">Die Linke KV-WebApp</h1>
+                <p class="text-center fs-4">Web-Application zur Verwaltung von Aufgaben im Kreisvorstand Aachen</p>
+              </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
   name: 'HomeView',
   components: {
-    HelloWorld
   }
 }
 </script>
+
+<style lang="scss">
+@import '~bootstrap/dist/css/bootstrap.css'
+</style>
